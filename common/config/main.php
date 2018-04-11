@@ -9,12 +9,5 @@ return [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
-        'db' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=interview_wechat',
-            'username' => 'root',
-            'password' => '123456',
-            'charset' => 'utf8',
-        ],
     ],
 ];
